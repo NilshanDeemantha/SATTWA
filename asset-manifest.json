@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sattwa-beauty/static/css/main.eb6de3d6.css",
+    "main.js": "/sattwa-beauty/static/js/main.6b5db646.js",
+    "static/js/453.806c1ff9.chunk.js": "/sattwa-beauty/static/js/453.806c1ff9.chunk.js",
+    "index.html": "/sattwa-beauty/index.html",
+    "main.eb6de3d6.css.map": "/sattwa-beauty/static/css/main.eb6de3d6.css.map",
+    "main.6b5db646.js.map": "/sattwa-beauty/static/js/main.6b5db646.js.map",
+    "453.806c1ff9.chunk.js.map": "/sattwa-beauty/static/js/453.806c1ff9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb6de3d6.css",
+    "static/js/main.6b5db646.js"
+  ]
+}
