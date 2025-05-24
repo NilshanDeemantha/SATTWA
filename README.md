@@ -1,15 +1,32 @@
-# SATTWA Ayurvedic Beauty Care Center Website
+# SATTWA Ayurvedic Beauty Care Center
 
-A modern, responsive website for SATTWA Ayurvedic Beauty Care Center built with React and TypeScript.
+A modern website for SATTWA Ayurvedic Beauty Care Center built with React and TypeScript.
 
 ## Features
 
-- Responsive design that works on all devices
-- Modern UI with Ayurvedic-inspired color scheme
-- Interactive navigation with mobile menu
-- Location finder integration
-- Contact information and social media links
-- Opening hours display
+- Responsive design
+- Modern UI/UX
+- Contact form
+- Service listings
+- Gallery
+- Location map
+
+## Development
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm start
+
+# Build for production
+npm run build
+```
+
+## Deployment
+
+This project is automatically deployed to GitHub Pages when changes are pushed to the master branch.
 
 ## Tech Stack
 
@@ -67,10 +84,6 @@ sattwa-beauty/
 - Direct pushes to `main` are restricted
 - Pull requests require review
 - `prod` branch is used for production deployment
-
-## Deployment
-
-The website is automatically deployed when changes are merged into the `prod` branch.
 
 ## Contributing
 
