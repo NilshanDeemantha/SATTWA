@@ -1,0 +1,132 @@
+.about {
+  width: 100%;
+}
+
+.about-hero {
+  height: 40vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("/images/about-bg.jpg") center/cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--white);
+  margin-top: -6rem;
+  padding-top: 6rem;
+}
+
+.about-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: var(--white);
+}
+
+.about-hero p {
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+}
+
+.about-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 1rem;
+}
+
+.about-section {
+  margin-bottom: 4rem;
+}
+
+.about-section h2 {
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+.about-section p {
+  line-height: 1.8;
+  color: var(--text-color);
+  margin-bottom: 1rem;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.team-member {
+  text-align: center;
+  padding: 1rem;
+}
+
+.member-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto 1rem;
+  background-color: var(--background-color);
+  background-size: cover;
+  background-position: center;
+}
+
+.team-member h3 {
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+.team-member p {
+  color: var(--text-color);
+}
+
+.commitment-list {
+  list-style: none;
+  padding: 0;
+}
+
+.commitment-list li {
+  padding: 0.8rem 0;
+  border-bottom: 1px solid var(--background-color);
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+}
+
+.commitment-list li:before {
+  content: "✓";
+  color: var(--primary-color);
+  margin-right: 1rem;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .about-hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .about-hero p {
+    font-size: 1rem;
+  }
+
+  .about-content {
+    padding: 2rem 1rem;
+  }
+
+  .about-section {
+    margin-bottom: 2rem;
+  }
+
+  .about-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .team-grid {
+    gap: 1rem;
+  }
+
+  .member-image {
+    width: 150px;
+    height: 150px;
+  }
+}
